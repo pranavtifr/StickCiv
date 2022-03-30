@@ -16,16 +16,24 @@ options = "+Freeciv-2.6-spec"
 ; Bebro for his collection of mediveal units and ships
 
 artists = "
-    Bobomax
     Alex Mor [Alex]
     Allard H.S. Höfelt [AHS]
     Bebro [BB]
     Captain Nemo [Nemo][MHN]
     CapTVK [CT] <thomas@worldonline.nl>
+    Curt Sibling [CS]
+    Erwan [EW]
     Fairline [GB]
     GoPostal [GP]
+    Oprisan Sorin [Sor]
     Tanelorn [T]
+    Paul Klein Lankhorst / GukGuk [GG]
     Andrew ''Panda´´ Livings [APL]
+    Vodvakov
+    J. W. Bjerk / Eleazar <www.jwbjerk.com>
+    qwm
+    FiftyNine
+    Bobomax
 "
 
 [file]
@@ -44,7 +52,7 @@ tiles = { "row", "column", "tag"
   0,  0, "u.armor"		; [Bobomax]
   0,  1, "u.howitzer"		; [Bobomax]
   0,  2, "u.battleship"		; [Nemo]
-  0,  3, "u.bomber"		; [GB]
+  0,  3, "u.bomber"		; [Bobomax]
   0,  4, "u.cannon"		; [Bobomax]
   0,  5, "u.caravan"		; [Bobomax]
   0,  6, "u.carrier"		; [Bobomax]
@@ -67,7 +75,7 @@ tiles = { "row", "column", "tag"
   1,  3, "u.caravel"		; [Bobomax]
   1,  4, "u.settlers"		; [Bobomax]
   1,  5, "u.submarine"		; [Bobomax]
-  1,  6, "u.transport"		; [Nemo]
+  1,  6, "u.transport"		; [Bobomax]
   1,  7, "u.trireme"		; [Bobomax]
   1,  8, "u.archers"		; [Bobomax]
   1,  9, "u.cavalry"		; [Bobomax]
@@ -79,19 +87,19 @@ tiles = { "row", "column", "tag"
   1, 15, "u.galleon"		; [Bobomax]
   1, 16, "u.partisan"		; [BB] & [CT]
   1, 17, "u.pikemen"		; [Bobomax]
-  2,  0, "u.marines"		; [GB]
+  2,  0, "u.marines"		; [Bobomax]
   2,  1, "u.spy"		; [Bobomax]
   2,  2, "u.engineers"		; [Bobomax]
   2,  3, "u.artillery"		; [Bobomax]
   2,  4, "u.helicopter"		; [T]
-  2,  5, "u.alpine_troops"	; [Nemo]
+  2,  5, "u.alpine_troops"	; [Bobomax]
   2,  6, "u.stealth_bomber"	; [Bobomax]
   2,  7, "u.stealth_fighter"	; [Nemo] & [AHS]
   2,  8, "u.aegis_cruiser"	; [GP]
-  2,  9, "u.paratroopers"	; [Alex]
+  2,  9, "u.paratroopers"	; [Bobomax]
   2, 10, "u.elephants"		; [Bobomax]
   2, 11, "u.crusaders"		; [Bobomax]
-  2, 12, "u.fanatics"		; [GB] & [CT]
+  2, 12, "u.fanatics"		; [Bobomax]
   2, 13, "u.awacs"		; [APL]
   2, 14, "u.worker"		; [Bobomax]
   2, 15, "u.leader"		; [Bobomax]
